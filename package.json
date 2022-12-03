@@ -2,6 +2,7 @@
   "name": "next_mdx_rs_issue",
   "version": "0.1.0",
   "private": true,
+  "module": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.1.5",
+    "@mdx-js/react": "^2.1.5",
+    "@next/mdx": "^13.0.6",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "remark-frontmatter": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "8.29.0",
